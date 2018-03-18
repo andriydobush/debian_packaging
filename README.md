@@ -1,4 +1,4 @@
-#Minimal debuan package steps
+# Minimal debian package steps
 
 ## build package
 dpkg-deb --build helloworld
@@ -6,7 +6,7 @@ dpkg-deb --build helloworld
 ## Install package
 dpkg -i helloworld.deb
 
-src/hello.sh will be installed to /usr/local/bin
+src/hello.sh -> /usr/local/bin
 
 ## Remove package
 
