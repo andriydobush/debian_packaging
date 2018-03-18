@@ -1,0 +1,9 @@
+Package: hello-debian
+Essential: no
+Section: base
+Maintainer: Adnriy Dobush <dobush.andrew@gmail.com>
+Architecture: amd64
+Version: 0.1-1
+Provides: pkg_example
+Description:
+ Simole example of debian package with bash script only
